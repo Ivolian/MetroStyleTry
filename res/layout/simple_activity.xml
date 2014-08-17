@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:padding="15dp">
+
+    <lib.FaIconView
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="fa-android"
+            android:textSize="170dp"
+            android:shadowColor="@android:color/holo_red_dark"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="20"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:layout_marginRight="10dp"/>
+
+    <lib.FaIconView
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="fa-github"
+            android:textSize="170dp"
+            android:shadowColor="@android:color/holo_blue_dark"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="20"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"/>
+
+</LinearLayout>
+
